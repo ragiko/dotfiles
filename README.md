@@ -10,4 +10,5 @@ ln -s dotfiles/.zshrc ~/.zshrc
 # .zshrc
 .vimperatorrc
 .vimperator/
+.ideavimrc
 ```

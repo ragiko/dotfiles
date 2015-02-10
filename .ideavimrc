@@ -1,0 +1,45 @@
+" 参考: https://github.com/beloglazov/vimrc/blob/master/.ideavimrc
+" 2: 
+set gdefault
+set ignorecase
+
+" ============================================================================
+" Editing
+" ============================================================================
+
+" Escape
+inoremap <C-j> <Esc>`^
+
+" Switch tabs
+nnoremap <C-n> gt
+nnoremap <C-p> gT
+
+" Delete tabs
+nnoremap <C-x> :<C-u>tabclose<CR>
+
+" ============================================================================
+" Editor control
+" ============================================================================
+
+" Enter the command-line mode
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
+
+" Reload .ideavimrc
+nnoremap <Space>vs :source ~/.ideavimrc<CR>
+
+" ============================================================================
+" IDE actions
+" ============================================================================
+
+nnoremap , :action AceJumpAction<CR>
+nnoremap <Space>c :action GotoClass<CR>
+nnoremap <Space>f :action GotoFile<CR>
+nnoremap <Space>d :action CloseContent<CR>
+nnoremap <Space>j :action RecentFiles<CR>
+nnoremap <Space>k :action FileStructurePopup<CR>
+nnoremap <Space>h :action QuickJavaDoc<CR>
+
+
