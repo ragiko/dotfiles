@@ -58,7 +58,7 @@ if has('vim_starting')
 endif
 
 " Required:
-call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
@@ -144,7 +144,7 @@ let g:ref_phpmanual_path = $HOME . '/.vim/refs/php-chunked-xhtml'
 
 " Ag のオプション
 " https://github.com/rking/ag.vim
-let g:agprg="/usr/local/bin/ag --column"
+let g:agprg="/usr/bin/ag --column"
 
 " ---
 " twig as html
