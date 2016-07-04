@@ -152,3 +152,17 @@ let g:agprg="/usr/bin/ag --column"
 if has('autocmd')
 autocmd BufNewFile,BufRead *.twig set filetype=html
 endif
+
+" "-------------------------------------------
+" " cscope
+" "
+nnoremap <Leader>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nnoremap <Leader>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nnoremap <Leader>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+nnoremap <Leader>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+
