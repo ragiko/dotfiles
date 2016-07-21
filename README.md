@@ -12,3 +12,6 @@ ln -s dotfiles/.zshrc ~/.zshrc
 .vimperator/
 .ideavimrc
 ```
+
+## 今後追加したい
+* ag

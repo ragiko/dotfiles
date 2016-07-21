@@ -25,7 +25,7 @@ highlight LineNr ctermbg=grey ctermfg=darkgrey
 highlight ZenkakuSpace cterm=underline ctermfg=blue
 " $が行末に出る
 set nolist
-set clipboard=autoselect,unnamed
+" set clipboard=autoselect,unnamed
 " 空白表示など
 " set lcs=tab:>.,eol:$,trail:_,extends:\
 
